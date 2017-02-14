@@ -1,0 +1,5 @@
+D:\Projects\Snappet\Snippet.Models\bin\Debug\Snippet.Models.dll
+D:\Projects\Snappet\Snippet.Models\bin\Debug\Snippet.Models.pdb
+D:\Projects\Snappet\Snippet.Models\obj\Debug\Snippet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snippet.Models\obj\Debug\Snippet.Models.dll
+D:\Projects\Snappet\Snippet.Models\obj\Debug\Snippet.Models.pdb

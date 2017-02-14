@@ -1,0 +1,14 @@
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Business.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Business.pdb
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Helpers.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Models.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Services.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\StructureMap.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Helpers.pdb
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Models.pdb
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Snippet.Services.pdb
+D:\Projects\Snappet\Snippet.Business\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Snappet\Snippet.Business\obj\Debug\Snippet.Business.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snippet.Business\obj\Debug\Snippet.Business.dll
+D:\Projects\Snappet\Snippet.Business\obj\Debug\Snippet.Business.pdb

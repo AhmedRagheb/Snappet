@@ -1,0 +1,9 @@
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Snippet.Services.dll
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Snippet.Services.pdb
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Snippet.Models.dll
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Snippet.Models.pdb
+D:\Projects\Snappet\Snippet.Services\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Snappet\Snippet.Services\obj\Debug\Snippet.Providers.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snippet.Services\obj\Debug\Snippet.Services.dll
+D:\Projects\Snappet\Snippet.Services\obj\Debug\Snippet.Services.pdb

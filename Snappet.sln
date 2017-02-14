@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Web", "Snappet.Web\Snappet.Web.csproj", "{F3B247AD-A90C-4326-9255-F500ACDF4BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Tests", "Snappet.Web.Tests\Snappet.Tests.csproj", "{F194AFE1-5432-49D0-AB93-D495D524FCFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Providers", "Snappet.Providers\Snappet.Providers.csproj", "{E919BD75-90B5-4759-8D9D-D96E8918AF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Models", "Snappet.Models\Snappet.Models.csproj", "{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Business", "Snappet.Business\Snappet.Business.csproj", "{4DECAE9E-8DCA-447F-A694-9CF8345BDEEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Helpers", "Snappet.Helpers\Snappet.Helpers.csproj", "{D9777D29-A179-4834-9DE4-415766ED66F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B247AD-A90C-4326-9255-F500ACDF4BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B247AD-A90C-4326-9255-F500ACDF4BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B247AD-A90C-4326-9255-F500ACDF4BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B247AD-A90C-4326-9255-F500ACDF4BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F194AFE1-5432-49D0-AB93-D495D524FCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F194AFE1-5432-49D0-AB93-D495D524FCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F194AFE1-5432-49D0-AB93-D495D524FCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F194AFE1-5432-49D0-AB93-D495D524FCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E919BD75-90B5-4759-8D9D-D96E8918AF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E919BD75-90B5-4759-8D9D-D96E8918AF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E919BD75-90B5-4759-8D9D-D96E8918AF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E919BD75-90B5-4759-8D9D-D96E8918AF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DECAE9E-8DCA-447F-A694-9CF8345BDEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DECAE9E-8DCA-447F-A694-9CF8345BDEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DECAE9E-8DCA-447F-A694-9CF8345BDEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DECAE9E-8DCA-447F-A694-9CF8345BDEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9777D29-A179-4834-9DE4-415766ED66F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9777D29-A179-4834-9DE4-415766ED66F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9777D29-A179-4834-9DE4-415766ED66F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9777D29-A179-4834-9DE4-415766ED66F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

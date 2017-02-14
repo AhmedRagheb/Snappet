@@ -1,0 +1,30 @@
+﻿@using Snappet.Helpers.Resources
+
+<!-- top tiles -->
+<div class="row tile_count">
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-user"></i> @Resources.TotalStudents</span>
+        <div class="count green">{{ studentsCount }}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-line-chart"></i> @Resources.TotalProgress</span>
+        <div class="count green">{{ totalProgress }}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-check"></i> @Resources.TotalCorrect</span>
+        <div class="count green">{{ totalCorrect }}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-star"></i> @Resources.TotalSubjects</span>
+        <div class="count green">{{ totalSubjects }}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-signal"></i> @Resources.TotalDomains</span>
+        <div class="count green">{{ totalDomains }}</div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+        <span class="count_top"><i class="fa fa-book"></i> @Resources.TotalLearningObjective</span>
+        <div class="count green">{{ totalLearningObjectives }}</div>
+    </div>
+</div>
+<!-- /top tiles -->

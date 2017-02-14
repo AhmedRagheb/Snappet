@@ -1,0 +1,61 @@
+﻿
+@model Snappet.Web.Models.StudentsViewModel
+@{
+    ViewBag.Title = "Class Today";
+}
+
+<style>
+    [v-cloak] {
+      display: none;
+    }
+</style>
+
+<!-- page content -->
+<div role="main" id="app">
+    <div v-cloak>
+        @Html.Partial("_TotalNumbers")
+
+        @Html.Partial("_OverallChart")
+
+        <br />
+        <div class="row">
+            @Html.Partial("_SubjectsChart")
+
+            @Html.Partial("_LearningObjectivesChart")
+        </div>
+        <br />
+
+        @Html.Partial("_StudentsDetailsData")
+    </div>
+</div>
+<!-- /page content -->
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            studentsCount: '@Model.StudentsCount',
+            totalProgress: '@Model.TotalProgress',
+            totalCorrect: '@Model.TotalCorrect',
+            totalLearningObjectives: '@Model.TotalLearningObjectives',
+            totalDomains: '@Model.TotalDomains',
+            totalSubjects: '@Model.TotalSubjects',
+            studentsData: JSON.parse('@Html.Raw(Json.Encode(Model.TodayData))'),
+            topLearningObjectsChartLabels: JSON.parse('@Html.Raw(Json.Encode(Model.TopLearningObjects.Select(x => x.Key).ToList()))'),
+            topLearningObjectsChartValues: JSON.parse('@Html.Raw(Json.Encode(Model.TopLearningObjects.Select(x => x.Value).ToList()))'),
+            topSubjectsChartLabels: JSON.parse('@Html.Raw(Json.Encode(Model.TopSubjects.Select(x => x.Key).ToList()))'),
+            topSubjectsChartValues: JSON.parse('@Html.Raw(Json.Encode(Model.TopSubjects.Select(x => x.Value).ToList()))'),
+            progressData: JSON.parse('@Html.Raw(Json.Encode(Model.ProgressData))'),
+            correctData: JSON.parse('@Html.Raw(Json.Encode(Model.CorrectData))'),
+        },
+    })
+
+
+    Initdatatable();
+    InitSubjectsChart();
+    InitLearningObjectiveChart();
+    InitOverviewChart();
+
+    
+</script>
+

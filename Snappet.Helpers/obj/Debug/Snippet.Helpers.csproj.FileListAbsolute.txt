@@ -1,0 +1,5 @@
+D:\Projects\Snappet\Snippet.Helpers\bin\Debug\Snippet.Helpers.dll
+D:\Projects\Snappet\Snippet.Helpers\bin\Debug\Snippet.Helpers.pdb
+D:\Projects\Snappet\Snippet.Helpers\obj\Debug\Snippet.Helpers.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snippet.Helpers\obj\Debug\Snippet.Helpers.dll
+D:\Projects\Snappet\Snippet.Helpers\obj\Debug\Snippet.Helpers.pdb
