@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Web", "Snappet.Web\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Tests", "Snappet.Web.Tests\Snappet.Tests.csproj", "{F194AFE1-5432-49D0-AB93-D495D524FCFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Providers", "Snappet.Providers\Snappet.Providers.csproj", "{E919BD75-90B5-4759-8D9D-D96E8918AF82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Repository", "Snappet.Repository\Snappet.Repository.csproj", "{E919BD75-90B5-4759-8D9D-D96E8918AF82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snappet.Models", "Snappet.Models\Snappet.Models.csproj", "{1F1BD5AE-59C3-4D22-9156-87EF0ED8F38A}"
 EndProject

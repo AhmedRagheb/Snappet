@@ -1,0 +1,5 @@
+D:\Projects\Snappet\Snappet.Models\bin\Release\Snappet.Models.dll
+D:\Projects\Snappet\Snappet.Models\bin\Release\Snappet.Models.pdb
+D:\Projects\Snappet\Snappet.Models\obj\Release\Snappet.Models.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snappet.Models\obj\Release\Snappet.Models.dll
+D:\Projects\Snappet\Snappet.Models\obj\Release\Snappet.Models.pdb

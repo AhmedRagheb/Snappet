@@ -46,7 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cache\CacheHelper.cs" />
-    <Compile Include="Injection\StructureMapInjector.cs" />
+    <Compile Include="Cache\ICacheHelper.cs" />
+    <Compile Include="Managers\IStudentsManager.cs" />
     <Compile Include="Managers\StudentsManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,9 +60,9 @@
       <Project>{1f1bd5ae-59c3-4d22-9156-87ef0ed8f38a}</Project>
       <Name>Snappet.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Snappet.Providers\Snappet.Providers.csproj">
+    <ProjectReference Include="..\Snappet.Repository\Snappet.Repository.csproj">
       <Project>{e919bd75-90b5-4759-8d9d-d96e8918af82}</Project>
-      <Name>Snappet.Providers</Name>
+      <Name>Snappet.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

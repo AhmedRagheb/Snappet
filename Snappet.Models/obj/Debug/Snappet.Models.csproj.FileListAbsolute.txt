@@ -3,3 +3,7 @@ D:\Projects\Snappet\Snippet.Models\bin\Debug\Snappet.Models.pdb
 D:\Projects\Snappet\Snippet.Models\obj\Debug\Snappet.Models.csprojResolveAssemblyReference.cache
 D:\Projects\Snappet\Snippet.Models\obj\Debug\Snappet.Models.dll
 D:\Projects\Snappet\Snippet.Models\obj\Debug\Snappet.Models.pdb
+D:\Projects\Snappet\Snappet.Models\bin\Debug\Snappet.Models.dll
+D:\Projects\Snappet\Snappet.Models\bin\Debug\Snappet.Models.pdb
+D:\Projects\Snappet\Snappet.Models\obj\Debug\Snappet.Models.dll
+D:\Projects\Snappet\Snappet.Models\obj\Debug\Snappet.Models.pdb

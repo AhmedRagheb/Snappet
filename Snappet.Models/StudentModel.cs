@@ -7,15 +7,10 @@ namespace Snappet.Models
         public long SubmittedAnswerId { get; set; }
         public DateTime SubmitDateTime { get; set; }
 
-        private string _submitDateDisplay;
         public string SubmitDateDisplay {
             get
             {
-                return _submitDateDisplay = this.SubmitDateTime.ToShortDateString();
-            }
-            set
-            {
-                _submitDateDisplay = value;
+                return SubmitDateTime.ToShortDateString();
             }
         }
 

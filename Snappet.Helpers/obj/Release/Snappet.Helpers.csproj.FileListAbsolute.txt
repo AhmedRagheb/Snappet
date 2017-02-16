@@ -1,0 +1,7 @@
+D:\Projects\Snappet\Snappet.Helpers\bin\Release\Snappet.Helpers.dll
+D:\Projects\Snappet\Snappet.Helpers\bin\Release\Snappet.Helpers.pdb
+D:\Projects\Snappet\Snappet.Helpers\obj\Release\Snappet.Helpers.csprojResolveAssemblyReference.cache
+D:\Projects\Snappet\Snappet.Helpers\obj\Release\Snappet.Helpers.Resources.Resources.resources
+D:\Projects\Snappet\Snappet.Helpers\obj\Release\Snappet.Helpers.csproj.GenerateResource.Cache
+D:\Projects\Snappet\Snappet.Helpers\obj\Release\Snappet.Helpers.dll
+D:\Projects\Snappet\Snappet.Helpers\obj\Release\Snappet.Helpers.pdb

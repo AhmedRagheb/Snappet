@@ -34,5 +34,31 @@ namespace Snappet.Helpers
                 return _cacheExpiresHours;
             }
         }
+
+        static string _cacheKeyAllData;
+        public static string CacheKeyAllData
+        {
+            get
+            {
+                if(string.IsNullOrEmpty(_cacheKeyAllData))
+                {
+                    _cacheKeyAllData = Get("CacheKeyAllData", "AllData");
+                }
+                return _cacheKeyAllData;
+            }
+        }
+
+        static string _cacheKeyTodayData;
+        public static string CacheKeyTodayData
+        {
+            get
+            {
+                if (string.IsNullOrEmpty(_cacheKeyTodayData))
+                {
+                    _cacheKeyTodayData = Get("CacheKeyTodayData", "TodatData");
+                }
+                return _cacheKeyTodayData;
+            }
+        }
     }
 }

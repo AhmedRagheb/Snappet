@@ -1,0 +1,44 @@
+﻿
+<div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>@Snappet.Helpers.Resources.Resources.StudentsData</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="table-responsive">
+            <table id="datatable-buttons" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>UserId</th>
+                        <th>ExerciseId</th>
+                        <th>Difficulty</th>
+                        <th>Progress</th>
+                        <th>Correct</th>
+                        <th>Subject</th>
+                        <th>Domain</th>
+                        <th>Learning Objective</th>
+                        <th>Submit Date</th>
+                        <th>Submitted AnswerId</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="student in studentsData">
+                        <td>{{student.UserId}}</td>
+                        <td>{{student.ExerciseId}}</td>
+                        <td>{{student.Difficulty}}</td>
+                        <td>{{student.Progress}}</td>
+                        <td>{{student.Correct}}</td>
+                        <td>{{student.Subject}}</td>
+                        <td>{{student.Domain}}</td>
+                        <td>{{student.LearningObjective}}</td>
+                        <td>{{student.SubmitDateDisplay}}</td>
+                        <td>{{student.SubmittedAnswerId}}</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+                </div>
+        </div>
+    </div>
+</div>
